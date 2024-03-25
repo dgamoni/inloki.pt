@@ -34,3 +34,22 @@ body {
 .side_box h3 a:hover {
     color: #777777;
 }
+
+/* Maps ACF */
+.acf-map {
+	width: 100%;
+	height: 390px;
+	border: #ccc solid 1px;
+	margin: 20px 0;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit !important;
+}
+.inloki_data .datas:after {
+	content:',';
+}
+.inloki_data .datas:last-child:after {
+	content:'';
+}
