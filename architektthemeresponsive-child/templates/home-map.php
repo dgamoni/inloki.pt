@@ -290,10 +290,15 @@ function add_marker( $marker, map ) {
  // var
  var latlng = new google.maps.LatLng( $marker.attr('data-lat'), $marker.attr('data-lng') );
  // create marker
+ var image = {
+    url: '<?php echo get_stylesheet_directory_uri(); ?>'+'/images/gmaps.svg',
+    scaledSize: new google.maps.Size(20, 20),
+}
  var marker = new google.maps.Marker({
 	 position : latlng,
 	 map : map,
-	 icon : '<?php echo get_stylesheet_directory_uri(); ?>'+'/images/gmaps.svg',
+     optimized: false,
+	 icon : image,
  });
 
  // add to array

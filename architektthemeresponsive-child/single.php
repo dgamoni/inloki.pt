@@ -9,8 +9,13 @@
           <h1><?php the_title(); ?></h1>
 
           <div class="single_content">
+            <?php get_template_part( 'templates/single', 'biggallery' ); ?>
+            
             <?php the_content(); ?>
+
             <?php get_template_part( 'templates/single', 'fields' ); ?>
+            <?php get_template_part( 'templates/single', 'smallgallery' ); ?>
+
           </div><!--//single_content-->
 
           

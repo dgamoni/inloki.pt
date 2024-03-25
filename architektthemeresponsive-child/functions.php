@@ -16,5 +16,6 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css' );
 
 
 
-
+require_once get_stylesheet_directory(). '/include/load_js.php';
 require_once get_stylesheet_directory(). '/include/acf_options.php';
+require_once get_stylesheet_directory(). '/lib/BFI_Thumb.php';

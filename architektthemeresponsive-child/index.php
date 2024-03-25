@@ -216,7 +216,7 @@
 
 
 
-    <div class="home_blog_box home_second_blog_box">
+    <div class="home_blog_box home_second_blog_box gary_ie11">
 
 
 
@@ -224,7 +224,7 @@
 
 
 
-    <div class="home_blog_box">
+    <div class="home_blog_box gary_ie11">
 
 
 
@@ -232,7 +232,10 @@
 
 
 
-      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('featured-blog'); ?></a>
+      <a href="<?php the_permalink(); ?>">
+          <?php //the_post_thumbnail('featured-blog'); ?>
+          <?php the_post_thumbnail( array( 306, 350, 'bfi_thumb' => true ) ); ?>
+      </a>
 
 
 
@@ -344,7 +347,7 @@
 
 
 
-      <div class="home_port_box">
+      <div class="home_port_box gary_ie11">
 
 
 
@@ -352,7 +355,10 @@
 
 
 
-        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('featured-portfolio'); ?></a>
+        <a href="<?php the_permalink(); ?>">
+          <?php //the_post_thumbnail('featured-portfolio'); ?>
+          <?php the_post_thumbnail( array( 306, 350, 'bfi_thumb' => true ) ); ?>
+        </a>
 
 
 
