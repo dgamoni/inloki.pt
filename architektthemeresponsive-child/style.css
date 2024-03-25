@@ -1,0 +1,36 @@
+/*
+Theme Name: IN LOKI
+Theme URI: https://www.digitalclap.com
+Template: architektthemeresponsive
+Author: Digitalclap
+Author URI: https://www.digitalclap.com
+Version: 2.0.1506077329
+Updated: 2017-09-22 10:48:49
+
+*/
+
+
+/* Aumenta espaço na home debaixo do portfolio */
+.home_port_cont {
+    padding: 5px 0 50px;
+}
+
+
+/* Cores INLOKI cinza claro #BAB9BA ecinza escuro #777777 */
+body {
+    color: #BAB9BA;
+}
+.footer_box a:hover {
+    color: #BAB9BA;
+}
+
+#single_left p {
+    color: #777777;
+}
+.footer_box h3 {
+    color: #777777;
+	font-weight: 700;
+}
+.side_box h3 a:hover {
+    color: #777777;
+}
